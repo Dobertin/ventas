@@ -1,0 +1,71 @@
+17/09/2022 15:42:13	Este registro contiene información acerca de la operación de importación de esquema en el proyecto 'Ventas.Database' del equipo 'DESKTOP-OGE8BA0' por el usuario 'rober'.
+17/09/2022 15:42:13	Se inició la importación del esquema de la base de datos.
+17/09/2022 15:42:16	Recopilando opciones de base de datos
+17/09/2022 15:42:16	Recopilando usuarios
+17/09/2022 15:42:16	Recopilando roles
+17/09/2022 15:42:16	Recopilando roles de aplicación
+17/09/2022 15:42:16	Recopilando pertenencias a roles
+17/09/2022 15:42:16	Recopilando grupos de archivos
+17/09/2022 15:42:16	Recopilando catálogos de texto completo
+17/09/2022 15:42:16	Recopilando ensamblados
+17/09/2022 15:42:16	Recopilando certificados
+17/09/2022 15:42:16	Recopilando claves asimétricas
+17/09/2022 15:42:16	Recopilando claves simétricas
+17/09/2022 15:42:16	Recopilando claves simétricas cifradas
+17/09/2022 15:42:16	Recopilando esquemas
+17/09/2022 15:42:16	Recopilando colecciones de esquemas XML
+17/09/2022 15:42:16	Recopilando tipos de datos definidos por el usuario
+17/09/2022 15:42:16	Recopilando tipos definidos por el usuario
+17/09/2022 15:42:16	Recopilando tipos de tabla
+17/09/2022 15:42:16	Recopilando claves únicas para tipos de tabla
+17/09/2022 15:42:16	Recopilando claves principales para tipos de tabla
+17/09/2022 15:42:16	Recopilando restricciones CHECK para tipos de tabla
+17/09/2022 15:42:16	Recopilando restricciones DEFAULT para tipos de tabla
+17/09/2022 15:42:16	Recopilando funciones de partición
+17/09/2022 15:42:16	Recopilando esquemas de partición
+17/09/2022 15:42:16	Recopilando funciones
+17/09/2022 15:42:16	Recopilando funciones cifradas
+17/09/2022 15:42:16	Recopilando agregados
+17/09/2022 15:42:16	Recopilando procedimientos
+17/09/2022 15:42:16	Recopilando procedimientos cifrados
+17/09/2022 15:42:16	Recopilando tablas
+17/09/2022 15:42:16	Recopilando claves principales
+17/09/2022 15:42:16	Recopilando restricciones UNIQUE
+17/09/2022 15:42:16	Recopilando claves externas
+17/09/2022 15:42:16	Recopilando restricciones DEFAULT
+17/09/2022 15:42:16	Recopilando restricciones CHECK
+17/09/2022 15:42:16	Recopilando vistas
+17/09/2022 15:42:16	Recopilando vistas cifradas
+17/09/2022 15:42:16	Recopilando índices
+17/09/2022 15:42:16	Recopilando estadísticas
+17/09/2022 15:42:16	Recopilando listas de palabras irrelevantes de índices de texto completo
+17/09/2022 15:42:16	Recopilando índices de texto completo
+17/09/2022 15:42:16	Recopilando índices espaciales
+17/09/2022 15:42:16	Recopilando índices XML
+17/09/2022 15:42:16	Recopilando desencadenadores cifrados
+17/09/2022 15:42:16	Recopilando desencadenadores
+17/09/2022 15:42:16	Recopilando DDL triggers cifrados y de CLR
+17/09/2022 15:42:16	Recopilando DDL triggers
+17/09/2022 15:42:16	Recopilando sinónimos
+17/09/2022 15:42:16	Recopilando valores predeterminados
+17/09/2022 15:42:16	Recopilando enlaces UDDT de restricción de datos
+17/09/2022 15:42:16	Recopilando reglas
+17/09/2022 15:42:16	Recopilando enlaces UDDT de restricción de datos
+17/09/2022 15:42:16	Recopilando tipos de mensaje
+17/09/2022 15:42:16	Recopilando colas
+17/09/2022 15:42:16	Recopilando contratos
+17/09/2022 15:42:16	Recopilando servicios
+17/09/2022 15:42:16	Recopilando notificaciones de eventos
+17/09/2022 15:42:16	Recopilando enlaces de servicio remoto
+17/09/2022 15:42:16	Recopilando prioridades de Broker
+17/09/2022 15:42:16	Recopilando firmas
+17/09/2022 15:42:16	Recopilando opciones de compresión de datos
+17/09/2022 15:42:16	Recopilando propiedades extendidas
+17/09/2022 15:42:16	Recopilando credenciales
+17/09/2022 15:42:16	Recopilando inicios de sesión
+17/09/2022 15:42:16	Recopilando auditorías de servidor
+17/09/2022 15:42:17	Buscando elementos duplicados en el proyecto
+17/09/2022 15:42:17	Ha finalizado el procesamiento de los elementos duplicados
+17/09/2022 15:42:17	Finalizó la importación de la base de datos.
+17/09/2022 15:42:17	Se guardó un resumen de la importación en la siguiente ubicación: C:\Users\rober\source\repos\Dobertin\ventas\Ventas\Ventas.Database\Registros de importación de esquemas\Ventas.Database_20220917084213.log
+17/09/2022 15:42:17	Haga clic en Finalizar para continuar...
