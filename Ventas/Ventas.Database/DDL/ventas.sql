@@ -5,7 +5,7 @@
     [idProducto]        INT             NULL,
     [periodo]           CHAR (6)        NULL,
     [puntosObtenidos]   INT             NULL,
-    [fechaVenta]        DATETIME        NULL,
+    [fechaVenta]        DATETIME        NULL default GETDATE(),
     [montoDesembolsado] DECIMAL (10, 4) NULL,
     [estado_registro]   INT             NULL,
     PRIMARY KEY CLUSTERED ([idVenta] ASC),
