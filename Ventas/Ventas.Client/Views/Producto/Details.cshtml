@@ -1,0 +1,36 @@
+﻿@model Ventas.Infraestructure.Data.Entities.Producto
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NombreCom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NombreCom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Puntos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Puntos)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdProducto">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

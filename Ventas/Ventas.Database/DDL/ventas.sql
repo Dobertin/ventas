@@ -7,7 +7,7 @@
     [puntosObtenidos]   INT             NULL,
     [fechaVenta]        DATETIME        NULL default GETDATE(),
     [montoDesembolsado] DECIMAL (10, 4) NULL,
-    [estado_registro]   INT             NULL,
+    [estado_registro]   INT             NULL default 1,
     PRIMARY KEY CLUSTERED ([idVenta] ASC),
     FOREIGN KEY ([idAsesor]) REFERENCES [dbo].[asesores] ([idAsesor]),
     FOREIGN KEY ([idCliente]) REFERENCES [dbo].[cliente] ([idCliente]),

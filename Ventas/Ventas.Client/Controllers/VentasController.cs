@@ -7,10 +7,10 @@ using Ventas.Infraestructure.Data.Entities;
 
 namespace Ventas.Client.Controllers
 {
-    public class VentasControler : Controller
+    public class VentasController : Controller
     {
         private readonly VentasContext _context;
-        public VentasControler(VentasContext context)
+        public VentasController(VentasContext context)
         {
             _context = context;
         }
@@ -46,8 +46,8 @@ namespace Ventas.Client.Controllers
         public IActionResult Create()
         {
             ViewData["IdAsesor"] = new SelectList(_context.Asesores, "IdAsesor", "Nombres");
-            ViewData["IdCliente"] = new SelectList(_context.Asesores, "IdCliente", "Nombres");
-            ViewData["IdProducto"] = new SelectList(_context.Asesores, "IdProducto", "NombreCom");
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "IdCliente", "Nombres");
+            ViewData["IdProducto"] = new SelectList(_context.Productos, "IdProducto", "NombreCom");
             return View();
         }
 
@@ -65,8 +65,8 @@ namespace Ventas.Client.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 ViewData["IdAsesor"] = new SelectList(_context.Asesores, "IdAsesor", "Nombres",venta.IdAsesorNavigation);
-                ViewData["IdCliente"] = new SelectList(_context.Asesores, "IdCliente", "Nombres", venta.IdClienteNavigation);
-                ViewData["IdProducto"] = new SelectList(_context.Asesores, "IdProducto", "NombreCom", venta.IdProductoNavigation);
+                ViewData["IdCliente"] = new SelectList(_context.Clientes, "IdCliente", "Nombres", venta.IdClienteNavigation);
+                ViewData["IdProducto"] = new SelectList(_context.Productos, "IdProducto", "NombreCom", venta.IdProductoNavigation);
                 return View(venta);
             }
             catch
@@ -88,8 +88,8 @@ namespace Ventas.Client.Controllers
                 return NotFound();
             }
             ViewData["IdAsesor"] = new SelectList(_context.Asesores, "IdAsesor", "Nombres", venta.IdAsesorNavigation);
-            ViewData["IdCliente"] = new SelectList(_context.Asesores, "IdCliente", "Nombres", venta.IdClienteNavigation);
-            ViewData["IdProducto"] = new SelectList(_context.Asesores, "IdProducto", "NombreCom", venta.IdProductoNavigation);
+            ViewData["IdCliente"] = new SelectList(_context.Clientes, "IdCliente", "Nombres", venta.IdClienteNavigation);
+            ViewData["IdProducto"] = new SelectList(_context.Productos, "IdProducto", "NombreCom", venta.IdProductoNavigation);
             return View(venta);
         }
 
@@ -125,8 +125,8 @@ namespace Ventas.Client.Controllers
                     return RedirectToAction(nameof(Index));
                 }
                 ViewData["IdAsesor"] = new SelectList(_context.Asesores, "IdAsesor", "Nombres", venta.IdAsesorNavigation);
-                ViewData["IdCliente"] = new SelectList(_context.Asesores, "IdCliente", "Nombres", venta.IdClienteNavigation);
-                ViewData["IdProducto"] = new SelectList(_context.Asesores, "IdProducto", "NombreCom", venta.IdProductoNavigation);
+                ViewData["IdCliente"] = new SelectList(_context.Clientes, "IdCliente", "Nombres", venta.IdClienteNavigation);
+                ViewData["IdProducto"] = new SelectList(_context.Productos, "IdProducto", "NombreCom", venta.IdProductoNavigation);
                 return View(venta);
             }
             catch
