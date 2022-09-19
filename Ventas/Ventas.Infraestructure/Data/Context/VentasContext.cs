@@ -9,21 +9,21 @@ using Ventas.Infraestructure.Data.Entities;
 
 namespace Ventas.Infraestructure.Data.Context
 {
-    public partial class VentasDatabaseContext : DbContext
+    public partial class VentasContext : DbContext
     {
-        public VentasDatabaseContext()
+        public VentasContext()
         {
         }
 
-        public VentasDatabaseContext(DbContextOptions<VentasDatabaseContext> options)
+        public VentasContext(DbContextOptions<VentasContext> options)
             : base(options)
         {
         }
 
-        public virtual DbSet<Entities.Asesore> Asesores { get; set; }
-        public virtual DbSet<Entities.Cliente> Clientes { get; set; }
-        public virtual DbSet<Entities.Producto> Productos { get; set; }
-        public virtual DbSet<Entities.Venta> Ventas { get; set; }
+        public virtual DbSet<Asesore> Asesores { get; set; }
+        public virtual DbSet<Cliente> Clientes { get; set; }
+        public virtual DbSet<Producto> Productos { get; set; }
+        public virtual DbSet<Venta> Ventas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -1,6 +1,6 @@
 ﻿{
    "CodeGenerationMode": 2,
-   "ContextClassName": "Ventas.DatabaseContext",
+   "ContextClassName": "VentasContext",
    "ContextNamespace": null,
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
@@ -35,7 +35,7 @@
          "ObjectType": 1
       }
    ],
-   "UiHint": "DESKTOP-OGE8BA0.Ventas.Database",
+   "UiHint": "DESKTOP-OGE8BA0.Ventas",
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDbContextSplitting": true,

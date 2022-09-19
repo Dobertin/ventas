@@ -7,7 +7,7 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Ventas.Database", "Ventas.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ventas.Infraestructure", "Ventas.Infraestructure\Ventas.Infraestructure.csproj", "{2160E484-7512-4AD9-A084-C86E891E2FF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Client", "Ventas.Client\Ventas.Client.csproj", "{16C56B81-BDDF-46E0-8086-D30E34E79171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Client", "Ventas.Client\Ventas.Client.csproj", "{206F49E8-7FD0-4F7C-B837-26C806135AF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{2160E484-7512-4AD9-A084-C86E891E2FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2160E484-7512-4AD9-A084-C86E891E2FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2160E484-7512-4AD9-A084-C86E891E2FF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16C56B81-BDDF-46E0-8086-D30E34E79171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16C56B81-BDDF-46E0-8086-D30E34E79171}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16C56B81-BDDF-46E0-8086-D30E34E79171}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16C56B81-BDDF-46E0-8086-D30E34E79171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206F49E8-7FD0-4F7C-B837-26C806135AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206F49E8-7FD0-4F7C-B837-26C806135AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206F49E8-7FD0-4F7C-B837-26C806135AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206F49E8-7FD0-4F7C-B837-26C806135AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

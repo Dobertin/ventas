@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Ventas.Infraestructure.Data.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-//builder.Services.AddDbContext<VentasDatabaseContext>(opt => opt.UseSqlServer("erver=.; database=Ventas.Database; integrated security = true"));
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<VentasContext>(opt => opt.UseSqlServer("server=.; database=Ventas; integrated security = true"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,3 +28,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+

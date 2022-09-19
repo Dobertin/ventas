@@ -10,15 +10,15 @@ using Ventas.Infraestructure.Data.Entities;
 
 namespace Ventas.Infraestructure.Data.Context
 {
-    public partial class VentasDatabaseContext
+    public partial class VentasContext
     {
-        private IVentasDatabaseContextProcedures _procedures;
+        private IVentasContextProcedures _procedures;
 
-        public virtual IVentasDatabaseContextProcedures Procedures
+        public virtual IVentasContextProcedures Procedures
         {
             get
             {
-                if (_procedures is null) _procedures = new VentasDatabaseContextProcedures(this);
+                if (_procedures is null) _procedures = new VentasContextProcedures(this);
                 return _procedures;
             }
             set
@@ -27,7 +27,7 @@ namespace Ventas.Infraestructure.Data.Context
             }
         }
 
-        public IVentasDatabaseContextProcedures GetProcedures()
+        public IVentasContextProcedures GetProcedures()
         {
             return Procedures;
         }
@@ -38,11 +38,11 @@ namespace Ventas.Infraestructure.Data.Context
         }
     }
 
-    public partial class VentasDatabaseContextProcedures : IVentasDatabaseContextProcedures
+    public partial class VentasContextProcedures : IVentasContextProcedures
     {
-        private readonly VentasDatabaseContext _context;
+        private readonly VentasContext _context;
 
-        public VentasDatabaseContextProcedures(VentasDatabaseContext context)
+        public VentasContextProcedures(VentasContext context)
         {
             _context = context;
         }

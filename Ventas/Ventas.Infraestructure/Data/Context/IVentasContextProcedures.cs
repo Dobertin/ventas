@@ -10,8 +10,8 @@ using Ventas.Infraestructure.Data.Entities;
 
 namespace Ventas.Infraestructure.Data.Context
 {
-    public partial interface IVentasDatabaseContextProcedures
+    public partial interface IVentasContextProcedures
     {
-        Task<List<Entities.listarVentasResult>> listarVentasAsync(OutputParameter<int> returnValue = null, CancellationToken cancellationToken = default);
+        Task<List<listarVentasResult>> listarVentasAsync(OutputParameter<int> returnValue = null, CancellationToken cancellationToken = default);
     }
 }
