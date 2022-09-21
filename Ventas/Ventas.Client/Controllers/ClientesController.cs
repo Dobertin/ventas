@@ -47,7 +47,7 @@ namespace Ventas.Client.Controllers
         // POST: Ventas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCliente", "nombres", "apellidos", "TipoDoc", "NroDoc", "telefono", "celular")] Cliente cliente)
+        public async Task<IActionResult> Create([Bind("IdCliente", "Nombres", "Apellidos", "TipoDoc", "NroDoc", "Telefono", "Celular")] Cliente cliente)
         {
             try
             {
@@ -83,7 +83,7 @@ namespace Ventas.Client.Controllers
         // POST: Ventas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCliente", "nombres", "apellidos", "TipoDoc", "NroDoc", "telefono", "celular")] Cliente cliente)
+        public async Task<IActionResult> Edit(int id, [Bind("IdCliente", "Nombres", "Apellidos", "TipoDoc", "NroDoc", "Telefono", "Celular")] Cliente cliente)
         {
             try
             {
